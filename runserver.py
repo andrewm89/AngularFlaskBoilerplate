@@ -1,5 +1,5 @@
 import os
-from flaskAPI import app
+from server import app
 
 def runserver():
     port = int(os.environ.get('PORT', 5000))

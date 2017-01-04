@@ -1,4 +1,4 @@
-from flaskAPI import app
+from server import app
 
 from flask.ext.pymongo import PyMongo
 
